@@ -1,0 +1,199 @@
+:root
+{
+    --main-color: rgb(254, 243, 196);
+    --main-accent-color: rgb(50, 75, 46);
+}
+
+body
+{
+    background-color: var(--main-color);
+    font-family: Tahoma, Geneva, sans-serif;
+    border: thin solid var(--main-accent-color);
+    max-width: 75%;
+    line-height: 1em;
+    padding: 1%;
+    margin: auto;
+}
+
+html
+{
+    background-image: url(../images/background.png);
+}
+
+nav
+{
+    text-align: center; 
+}
+
+nav a:link
+{
+    background-color: var(--main-color);
+    color: var(--main-accent-color);
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    color: var(--main-accent-color);
+}
+
+nav a 
+{
+    display: inline-block;
+    width: 12em;
+}
+
+.activePage
+{
+    background-color: white;
+    border-radius: 0.5em;
+    border-collapse: collapse;
+    border: 0.1em groove var(--main-accent-color);
+}
+
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.25vw; 
+}
+
+img
+{
+    max-width: 100%;
+}
+
+header
+{
+    background-color: var(--main-accent-color);
+}
+
+.image
+{
+    max-width: 100%;
+    border-radius: 2em;
+}
+
+figure
+{
+    width: 30em;
+    border-radius: 2em;
+    border: thin solid var(--main-accent-color);
+}
+
+figcaption
+{
+    text-align: center;
+    color: var(--main-accent-color);
+}
+
+legend
+{
+    text-align: center;
+}
+
+.flexbox-layout
+{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+article
+{
+    flex: 0 1 50%;
+}
+
+.contact input
+{
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px var(--main-accent-color);
+}
+
+nav
+{
+    padding-top: 1em;
+    border-radius: 2em;
+    border: thin solid var(--main-accent-color);
+}
+
+.radio input:hover
+{
+   transform: scale(1.50, 1.50);
+   color: navy;  
+   cursor: pointer;
+}
+
+#txtQuestions
+{
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px var(--main-accent-color);
+}
+
+.buttons input
+{
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px var(--main-accent-color);
+    background-color: white;
+}
+
+
+@media screen and (max-width: 1200px)
+{
+    .flexbox-layout {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    table {
+        font-size: small;
+    }
+    figure {
+        max-width: 80%;
+    }
+    figcaption {
+        font-size: x-small;
+    }
+    .radio input:hover {
+        transform: none;
+    }
+    .checkbox input:hover {
+        transform: none;
+    }
+}
+
+.mistake
+{
+    color: red;
+}
+
+form
+{
+    max-width: 700px;
+    border: medium solid var(--main-accent-color);
+    padding: 1%;
+    margin: auto;
+}
+
+table 
+{
+    border-collapse: collapse;
+    border: 0.3em groove var(--main-accent-color);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td
+{
+    border: 0.2em double var(--main-accent-color);
+    width: 33.3%
+}
+
+th
+{
+    color: var(--main-accent-color);
+    border-collapse: collapse;
+    width: 33.3%;
+}

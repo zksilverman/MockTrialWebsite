@@ -1,0 +1,44 @@
+.flexbox-layout
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+figure
+{
+    max-width: 80%;
+
+}
+
+figcaption
+{
+    font-size: x-small;
+}
+
+
+.radio input:hover 
+{
+    transform: none;
+}
+
+table
+{
+    font-size: x-small;
+}
+
+.pronouns
+{
+    width: 60%;
+}
+
+body
+{
+    margin: 0%;
+    max-width: 100%;
+}
+
+h2
+{
+    line-height: 36px;
+}
